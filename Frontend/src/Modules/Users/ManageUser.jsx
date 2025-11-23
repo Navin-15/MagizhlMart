@@ -190,7 +190,8 @@ const ManageUser = () => {
   useEffect(() => {
     const fetchUsers = async () => {
       try {
-        const res = await axios.get("http://localhost:5000/api/users");
+        // const res = await axios.get("http://localhost:5000/api/users");
+        const res = axios.get("https://magizhmart-backend.onrender.com/api/users");
         setUsers(res.data.sort((a, b) => new Date(b.createdAt) - new Date(a.createdAt)));
       } catch (err) {
         console.error("Error fetching users:", err);
