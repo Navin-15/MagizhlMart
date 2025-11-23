@@ -120,7 +120,9 @@ const Sidebar = () => {
         {activeModule === "sales" && (
           <ul className="submodules">
             <li onClick={() => navigate("/billing")}>Billing</li>
-            {/* <li onClick={() => navigate("/manage-member")}>Manage Members</li> */}
+            <li onClick={() => navigate("/pending-orders")}>Pending Orders</li>
+            <li onClick={() => navigate("/delivered-ordres")}>Delivered Orders</li>
+            <li onClick={() => navigate("/paymets")}>Payments</li>
           </ul>
         )}
       </div>
@@ -136,8 +138,9 @@ const Sidebar = () => {
         {activeModule === "report" && (
           <ul className="submodules">
             {/* <li>Issue Book</li> */}
-            <li onClick={() => navigate("/sales")}>Sales</li>
-            <li onClick={() => navigate("/product")}>Product</li>
+            <li onClick={() => navigate("/sales-reports")}>Sales Reports</li>
+            <li onClick={() => navigate("/inventory-reports")}>Inventory Reports</li>
+            <li onClick={() => navigate("/payment-reports")}>Payment Reports</li>
           </ul>
         )}
       </div>
