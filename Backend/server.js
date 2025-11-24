@@ -33,6 +33,7 @@ const mongoose = require("mongoose");
 const cors = require("cors");
 const bodyParser = require("body-parser");
 const userRoutes = require("./routes/userRoutes");
+const customerRoutes = require("./routes/customerRoutes");
 
 const app = express();
 
@@ -43,6 +44,7 @@ app.use(express.json());
 
 // Routes
 app.use("/api/users", userRoutes);
+app.use("/api/customers", customerRoutes);
 
 // MongoDB connection
 mongoose

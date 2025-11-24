@@ -6,10 +6,10 @@ import Sidebar from "./Sidebar/Sidebar";
 import "./App.css";
 import TopBar from "./Topbar/TopBar";
 import CreateUser from './Modules/Users/CreateUser'
-import ManageUser from './Modules/Users/ManageUser';
-// import CreateTransaction from './Modules/Transactions/CreateTransaction';
-// import CreateStaff from './Modules/Staffs/CreateStaff';
-// import ManageBooks from './Modules/Books/ManageBooks';
+import ManageUser from './Modules/Users/ManageUser'
+import Billing from "./Modules/Sales/Billing";
+import Customers from './Modules/Inventory/Customers';
+import ManageCustomers from './Modules/Inventory/ManageCustomer';
 // import ManageMembers from './Modules/Members/ManageMembers';
 // import ManageTransactions from './Modules/Transactions/ManageTransactions';
 // import ManageStaffs from './Modules/Staffs/ManageStaffs';
@@ -27,10 +27,9 @@ const App = () => {
         {/* <Route path="/dashboard" element={<Dashboard />} /> */}
         <Route path="/create-user" element={<CreateUser />} />
         <Route path="/manage-user" element={<ManageUser />} />
-        {/* <Route path="/create-transaction" element={<CreateTransaction />} /> */}
-        {/* <Route path="/create-staff" element={<CreateStaff />} /> */}
-
-        {/* <Route path="/manage-book" element={<ManageBooks />} /> */}
+        <Route path="/billing" element={<Billing />} />
+        <Route path="/new-customers" element={<Customers />} />
+        <Route path="/manage-customers" element={<ManageCustomers />} />
         {/* <Route path="/manage-member" element={<ManageMembers />} /> */}
         {/* <Route path="/manage-transaction" element={<ManageTransactions />} /> */}
         {/* <Route path="/manage-staff" element={<ManageStaffs />} /> */}

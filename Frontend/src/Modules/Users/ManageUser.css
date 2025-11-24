@@ -35,6 +35,9 @@ h2 {
 h2 {
   font-weight: 600;
 }
+.form-control,.icons {
+  height: 45px;
+}
 
 .table th,
 .table td {
@@ -48,13 +51,16 @@ h2 {
 }
 
 .manageparent {
-  background-color: #1b1b2f;
+  background-color: whitesmoke;
+  color: black;
   padding: 20px;
+  margin: 3rem 0px 0rem 18rem;
   border-radius: 3px;
   width: 80.5%;
   position: absolute;
   right: 0px;
   top: 10px;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
   background: linear-gradient(135deg, #0d6efd, #6610f2);
+  z-index: -900;
 }

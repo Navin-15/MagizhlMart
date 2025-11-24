@@ -51,3 +51,8 @@
   width: 100%;
   background: #f7f7f7;
 }
+
+*{
+  
+  scrollbar-width: none;
+}

@@ -1,10 +1,11 @@
 .staff-form-container {
   max-width: 600px;
-  margin: 80px auto;
-  background-color: #ffffff;
+  /* margin: 80px auto; */
+  margin: 5rem 0px 0rem 29rem;;
+  background-color: whitesmoke;
   padding: 35px 40px;
   border-radius: 12px;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 

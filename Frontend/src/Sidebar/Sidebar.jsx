@@ -106,8 +106,8 @@ const Sidebar = () => {
         </div>
         {activeModule === "inventory" && (
           <ul className="submodules">
-            <li onClick={() => navigate("/customers")}>Customers</li>
-            {/* <li onClick={() => navigate("/manage-book")}>Manage Books</li> */}
+            <li onClick={() => navigate("/new-customers")}>New Customers</li>
+            <li onClick={() => navigate("/manage-customers")}>Manage Customers</li>
           </ul>
         )}
       </div>
